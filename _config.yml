@@ -13,25 +13,25 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: MM
+title: JINLI.LI
 email:
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-twitter_username: username
-github_username: username
+  JINLI.LI PORTFOLIO.
+# twitter_username: username
+github_username: JeziL
 minimal_mistakes_skin: default
-search: true
+search: false
+atom_feed:
+  hide: true
 
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
-paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+# paginate: 5 # amount of posts to show
+# paginate_path: /page:num/
+timezone: Asia/Shanghai # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 include:
   - _pages
@@ -50,42 +50,40 @@ include:
 
 # Plugins (previously gems:)
 plugins:
-  - jekyll-paginate
+  # - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
-  - jekyll-feed
+  # - jekyll-feed
   - jemoji
   - jekyll-include-cache
 
 author:
-  name   : "First Lastname"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  name   : "WANG Jinli"
+  avatar : "/assets/images/logo.png"
+  bio    : "A \"red\" engineer. A geek."
+  location: "Beijing, China"
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:i@jinli.li"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/JeziL"
+    - label: "ORCiD"
+      icon: "fas fa-graduation-cap"
+      url: "https://orcid.org/0000-0002-1502-0229"
 
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:i@jinli.li"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/JeziL"
+    - label: "ORCiD"
+      icon: "fas fa-graduation-cap"
+      url: "https://orcid.org/0000-0002-1502-0229"
 
 defaults:
   # _posts
