@@ -33,7 +33,7 @@ nontech_feature_row:
     excerpt: "Monarchy and feudal system in the Middle Ages in western Europe, genealogy, crusades and religious history, etc"
   - image_path: /assets/images/home_fcb.jpg
     title: "Football"
-    excerpt: "[FC Barcelona](https://www.fcbarcelona.com/en/), no *etc* needed. ~~(OK maybe [Liverpool](https://www.liverpoolfc.com/))~~"
+    excerpt: "Allez! [Paris Saint-Germain](https://en.psg.fr/)!"
 
 ---
 # About Me
