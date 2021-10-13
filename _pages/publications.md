@@ -31,7 +31,7 @@ Li, Xiaxi, <ins>et al</ins>. 20 Dec. 2017. CN Patent CN107271110A.
 {% include gallery id="fuse-gallery" caption="
 **A dynamic weighted algorithm for multiple radar fusion in an active protection system**
 <br/>
-<ins>Wang, Jinli</ins>, et al. *The Journal of Defense Modeling and Simulation* (2019).
+<ins>Wang, Jinli</ins>, et al. *The Journal of Defense Modeling and Simulation*. Vol. 18 No. 4, 2021, pp. 309-315.
 <br/>[DOI](https://journals.sagepub.com/doi/10.1177/1548512919890928){: .btn .btn--inverse}
 " %}
 
